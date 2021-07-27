@@ -1,4 +1,7 @@
-
+body{
+    background-color: #000000;
+    color: #ffffff;
+}
 .inline-block {
     display: inline-block;
     vertical-align: bottom;
@@ -84,6 +87,49 @@ button:hover{
 button:hover {
     transform: scale(1.25,1.25);
   }
+  .myskills{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+  }
+.flexContainer{
+    display:flex;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+.flexContainer > div{
+    width:33%;
+    margin: 1px;
+    padding: 1px;
+}
+.mywork{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+.workGrid{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 2px;
+    padding: 1px;
+}
+.travel_yes{
+    
+}
+
+.go_vote{
+
+}
+
+.dvs{
+
+}
+
+.eagan_art{
+
+}
+
 footer {
     background-image: linear-gradient(to top left, darkorange, darkorange, yellow);
     text-align: left;
