@@ -1,24 +1,30 @@
-body{
+body {
     background-color: #000000;
     color: #ffffff;
 }
+
 .inline-block {
     display: inline-block;
     vertical-align: bottom;
 }
-li{margin: 5px;}
 
-li:hover{
+li {
+    margin: 5px;
+}
+
+li:hover {
     background-color: white;
     color: black;
     transform: scale(1.25,1.25);
 }
+
 .logo {    
     width: 100px; 
     height: 100px; 
     padding: 1%;
     position: top;      
 }
+
 .name {
     text-align: left;
     font-weight: 900;
@@ -26,10 +32,12 @@ li:hover{
     position: absolute;
     margin-block-start: 20px;
 }
+
 .navigation {
     background-image: linear-gradient(to bottom right, darkorange, yellow);
     overflow: hidden;      
 }
+
 nav {
     width: 90%;
     padding-right: 5%;
@@ -38,16 +46,19 @@ nav {
     font-weight:bold;
     position: absolute;
 }
+
 ul {
     width: 80%;
     margin-left: auto;
     padding: 1%;
 }
+
 .heroimg {
-    height: 600px;
+    min-height: 600px;
     padding: 25px;
     background-color: black
 }
+
 .content {
     width: 500px;
     margin: auto;
@@ -78,56 +89,56 @@ button {
     text-decoration: none;
     font-size: 16px;
     margin: 15%;   
-  }
-button:hover{
+}
+
+button:hover {
     background-color: rgb(10, 43, 143);
     color: white;
-
 }
+
 button:hover {
     transform: scale(1.25,1.25);
-  }
-  .myskills{
+}
+
+.myskills {
     background-color: #000000;
     color: #ffffff;
     text-align: center;
-  }
-.flexContainer{
+}
+
+.flexContainer {
     display:flex;
     background-color: #000000;
     color: #ffffff;
     text-align: center;
 }
-.flexContainer > div{
+
+.flexContainer > div {
     width:33%;
     margin: 1px;
     padding: 1px;
 }
-.mywork{
+
+.mywork {
     background-color: #000000;
     color: #ffffff;
     text-align: center;
 }
-.workGrid{
+
+.workGrid {
     display:grid;
     grid-template-columns: auto auto auto auto;
-    grid-gap: 2px;
-    padding: 1px;
+    grid-gap: 100px;
+    padding: 10px;
 }
+
 .travel_yes{
-    
 }
-
 .go_vote{
-
 }
-
 .dvs{
-
 }
-
 .eagan_art{
-
 }
 
 footer {
@@ -137,6 +148,7 @@ footer {
     height: 100px;
     font-size: larger;    
 }
-footer ul{
+
+footer ul {
     float: left;
 }
