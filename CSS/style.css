@@ -130,15 +130,12 @@ button:hover {
     grid-template-columns: auto auto auto auto;
     grid-gap: 100px;
     padding: 10px;
-}
-
-.travel_yes{
-}
-.go_vote{
-}
-.dvs{
-}
-.eagan_art{
+    grid-template-areas: 
+    "travel_yes"
+    "go_vote"
+    "dvs"
+    "eagan_art"
+    ;
 }
 
 footer {
@@ -151,4 +148,29 @@ footer {
 
 footer ul {
     float: left;
+}
+
+@media only screen and (max-width: 600px){
+    .flexContainer {
+        display: flex;
+        flex-direction: column;
+        background-color: #000000;
+        color: #ffffff;
+        text-align: center;    
+    }
+    .flexContainer > div {
+        width:100%;
+        margin: 1px;
+        padding: 1px;
+    }
+    .workGrid {
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "travel_yes"
+        "go_vote"
+        "dvs"
+        "eagan_art"
+        ;
+    }    
 }
