@@ -116,7 +116,8 @@ button:hover {
 .flexContainer > div {
     width:33%;
     margin: 1px;
-    padding: 1px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .mywork {
@@ -128,8 +129,9 @@ button:hover {
 .workGrid {
     display:grid;
     grid-template-columns: auto auto auto auto;
-    grid-gap: 100px;
-    padding: 10px;
+    grid-gap: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
     grid-template-areas: 
     "travel_yes"
     "go_vote"
@@ -172,5 +174,32 @@ footer ul {
         "dvs"
         "eagan_art"
         ;
-    }    
+    } 
+    ul {
+        list-style-type: none;
+        left: 0%;
+        margin-top: 75px;
+        padding: 0;
+        overflow: hidden;
+        position: absolute;
+    }
+    .heroimg {
+        min-height: 600px;		
+        padding: 5px;
+        background-color: black
+    }
+    .content {
+        width: 300px;
+        margin: auto;
+        text-align: center;
+        color: white;
+        padding: 25px;
+    }
+    .mypic {
+        width: 300px;
+        margin: auto;
+        text-align: center;
+        color: white;
+        padding: 25px;
+    }
 }
